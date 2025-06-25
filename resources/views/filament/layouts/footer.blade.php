@@ -1,6 +1,6 @@
 <footer class="flex flex-col items-center justify-center text-center space-y-2 p-4 text-gray-600 dark:text-gray-400">
-    <a class="font-semibold" href="https://pelican.dev/docs/#core-team" target="_blank">
-        &copy; {{ date('Y') }} Pelican
+    <a class="font-semibold" href="https://gaming.sidequest.digital" target="_blank">
+        &copy; {{ date('Y') }} Sidequest Hosting
     </a>
     @if(config('app.debug'))
         <div class="flex space-x-1 text-xs">

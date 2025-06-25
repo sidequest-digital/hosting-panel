@@ -115,7 +115,7 @@
             return true;
         });
 
-        const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mpelican@' + '{{ \Filament\Facades\Filament::getTenant()->name }}' + ' ~ \u001b[0m';
+        const TERMINAL_PRELUDE = '\u001b[1m\u001b[33mSidequestHosting@' + '{{ \Filament\Facades\Filament::getTenant()->name }}' + ' ~ \u001b[0m';
 
         const handleConsoleOutput = (line, prelude = false) =>
             terminal.writeln((prelude ? TERMINAL_PRELUDE : '') + line.replace(/(?:\r\n|\r|\n)$/im, '') + '\u001b[0m');
